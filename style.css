@@ -1,0 +1,207 @@
+/* NAV */
+* {
+  margin: 0;
+  padding: 0;
+}
+container {
+  width: 1200px;
+}
+body {
+  text-align: center;
+}
+nav {
+  background-color: #C12127;
+  color: rgba(255,255,255,0.8);
+  padding-top: 15px;
+  height: 35px;
+}
+nav a {
+  color: rgba(255,255,255,0.8);
+  text-decoration: none;
+}
+.top-left {
+  float: left;
+}
+.top-links {
+  display: inline-block;
+  float: right;
+  padding: 0;
+  margin: 0 20px 0 0;
+}
+.top-links li {
+  display: inline-block;
+  margin: 0 10px;
+}
+
+/* HEADER */
+header {
+  background-color: #93C3EA;
+}
+.header-bar {
+  padding: 10px 0 0 0;
+  text-align: center;
+  display: block;
+  background-color: rgb(31,82,111);
+  height: 30px;
+}
+.header-bar-logo {
+  width: 10%;
+  float: left;
+  /*background-color: red;*/
+}
+.header-bar-search {
+  width: 75%;
+  float: left;
+ /* background-color: green;*/
+  height: 25px;
+}
+.header-bar-search input {
+  width: 90%;
+}
+.header-bar-user {
+  width: 15%;
+  float: right;
+  /*background-color: yellow;*/
+  height: 25px;
+  color: whitesmoke
+}
+.header-bar-user a {
+  color: whitesmoke;
+  font-size: 0.8em;
+}
+.header-bar-user img {
+  height: 15px;
+}
+
+.cleaning {
+  float: none;
+}
+
+.header-body {
+  margin: 0 auto;
+  width: 80%;
+  height: 300px;
+  background-image: url("./images/city_skyline.svg");
+  background-size: 60%;
+  background-repeat: no-repeat;
+  background-position: 80% 80%;
+}
+.header-body-info {
+  margin-left: 10%;
+  width: 35%;
+  padding-top: 5%;
+  color: rgb(78, 78, 78);
+  text-align: left;
+}
+.header-body-info h1 {
+  color:whitesmoke;
+  margin-bottom: 2%;
+}
+.header-body-info button {
+  margin-top: 3%;
+  background-color: orange;
+  border: 1 px solid orange;
+  padding: 2% 4%;
+  border-radius: 20px;
+  color: whitesmoke;
+  cursor: pointer;
+}
+
+.separation {
+  padding: 1%;
+  background-color: rgb(31,82,111);
+}
+
+/* SECTION 1 */
+#section-first {
+  background-color: rgb(49, 68, 88);
+  padding: 40px 80px 40px 80px;
+}
+.collaboration {
+  width: 80%;
+  margin: 0 auto;
+  display: flex;
+}
+.collaboration img {
+  width: 50%;
+  float: left;
+}
+.information{
+  margin-left: 10%;
+  width: 50%;
+  text-align: left;
+  display: flex;
+  flex-direction: column;
+  color: whitesmoke;
+}
+.information input {
+  font-size: 0.8em;
+  width: 50%;
+  padding: 5px 10px;
+  border: 1px solid black;
+  border-radius: 20px;
+  background-color: red;
+  color: whitesmoke;
+  cursor: pointer;
+}
+.information ul {
+  padding: 2% 0 5% 8%;
+}
+.information ul li {
+  font-size: 0.8em;
+  line-height: 2em;
+}
+.information a {
+  color: whitesmoke;
+  text-decoration: none;
+  cursor: pointer;
+}
+
+/* SECTION 2 */
+.installation-info {
+  text-align: left;
+  margin-left: 15%;
+  width: 30%;
+  height: 300px;
+  padding-top: 15%;
+  color: whitesmoke
+
+}
+.installation {
+  height: 500px;
+  background-image: url("./images/forklift.png");
+  background-size: cover;
+}
+.button-install {
+  background-color: rgb(49, 68, 88);
+  padding: 8px 15px;
+  border: none;
+  border-radius: 30px;
+  cursor: pointer;
+  color: whitesmoke
+}
+
+/* SECTION 3 */
+
+.heading {
+  margin-top: 5%;
+  color: gray;
+  line-height: 2.5em;
+}
+.boxes {
+  width: 80%;
+  margin: 0 auto;
+}
+.box {
+  width: 33%;
+  float: left;
+  text-align: center;
+  padding: 10px 0px;
+  color: black;
+}
+.box a {
+  color: red;
+}
+.box h3 {
+  margin: 5%;
+}
